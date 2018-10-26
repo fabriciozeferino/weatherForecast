@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  padding: 0;
+  color: #001f3f;
+  margin: 0;
+  font-family: "Varela Round", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
+
+h1 {
+  margin: 0;
+  font-size: 3.157em;
+}
+
+h2 {
+  font-size: 2.369em;
+}
+
+h3 {
+  font-size: 1.777em;
+  margin: 0;
+}
+
+small {
+  color: #AAA;
+  line-height: 1em;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.wrap {
+  display: grid;
+  grid-template-rows: auto;
+  max-width: 400px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+.img {
+  height: 30px;
+  width: 30px;
+}
+
+#cities {
+  padding: .1em .1em;
+}
+
+.flag {
+  height: 20px;
+}
+
+.mainicon {
+  font-size: 3.157em;
+}
+
+.forecast {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+}
+
+.forecast>div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .9em;
+  height: 40px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.row-0, .row-2, .row-4, .row-6, .row-8 {
+  background-color: #F5F5F5;
+}
+
+.top {
+  grid-column: 1 / -1;
+}
+
+.bottom {
+  grid-column: 1 / -1;
+}
+
+.arrowsSVG {
+  height: 15px;
+  width: 15px;
+}
+
+.submit {
+  width: 100%;
+  padding: .5em 0;
+  text-align: center;
+}
+
+.input-elements {
+  display: block;
+  width: 100%;
+  font-size: 1em;
+  font-family: "Varela Round", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: .3em 1.2em;
+  margin: .3em 0;
+  text-align: center;
+  border-left-width: 0px !important;
+  border-right-width: 0px !important;
+}
+
+.input-elements:hover {
+  border-top-color: #AAAAAA;
+  border-bottom-color: #AAAAAA;
+}
+
+.search {
+  border: .01em solid #000;
+}
+
+.btn {
+  background-color: #FFDC00;
+  border: .01em solid #FFDC00;
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+}
+
+.alert {
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+
+#spin {
+  padding: 15em;
+}
+
+.clearfix::after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}

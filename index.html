@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Weather App</title>
+        <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/weather-icons.css">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="js/weather-icons.js"></script>
+        <script src="js/app.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="wrap">
+            <div id="spin">
+                <img src="img/spin.gif" alt="Loading..." class="img">
+            </div>
+            <div id="cities"></div>
+            <div id="forecast"></div>
+            <!-- Form submit -->
+            <div class="submit">
+                <form>
+                    <label for="search">Would you like to search for another city?</label>
+                    <input type="search" name="search" id="search" class="search input-elements" placeholder="Enter a new city...">
+                    <div class="alert"></div>
+                    <input type="submit" value="Search" id="submit" class="btn input-elements">
+                </form>
+            </div>
+            <div id="footer">
+                <a href="https://www.yahoo.com/?ilc=401" target="_blank">
+                    <img src="https://poweredby.yahoo.com/purple_retina.png" width="134" height="29"/>
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
